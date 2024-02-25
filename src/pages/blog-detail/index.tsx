@@ -45,9 +45,6 @@ export default function BlogDetail({ blogPosts }: BlogDetailProps) {
     }
   }, [blogPosts]);
 
-  // Data Blog
-  console.log(blogPosts);
-
   useEffect(() => {
     const filteredPosts = blogPosts
       .filter((post) => {
